@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    /* box-sizing: border-box; */
+    height: 90px;
+    width: 180px;
+    background: #000;
+    border-radius: 50px;
+    position: relative;
+    padding: 10px;
+}
+.circle{
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    background: white;
+    border-radius: 50%;
+    /* transform: translateX(100%); */
+    transition: transform 0.5s;
+    cursor: pointer;
+}

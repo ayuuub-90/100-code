@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.list{
+    width: 50%;
+
+}
+li{
+    margin: 20px;
+    padding: 10px;
+    list-style:  none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.5);
+}
+li label{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input[type="radio"]{
+    display: none;
+}
+span{
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+.content{
+    overflow: hidden;
+    padding: 0 10px;
+    line-height: 20px;
+    max-height: 0;
+    transition: max-height 0.1s;
+}
+input[type="radio"]:checked + .content{
+    max-height: 100%;
+}

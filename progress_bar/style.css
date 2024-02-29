@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 400px;
+    box-shadow: 10px 10px 20px rgb(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.container .steps {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.steps .circle {
+    border: 6px solid #d3d3d3;
+    background: white;
+    color: #b6b6b6;
+    font-weight: bold;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .progress_bar {
+    position: absolute;
+    background: #d3d3d3;
+    height: 6px;
+    width: 100%;
+    top: 17px;
+    z-index: -1;
+}
+
+.progress_bar .progress {
+    width: 0%;
+    background: #00c257;
+    height: 100%;
+    transition: all 0.5s;
+}
+
+.steps .active {
+    border: 6px solid #00c257;
+    color: black;
+    transition: all 0.5s;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons button {
+    height: 40px;
+    width: 90px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    background: #00c257;
+    color: white;
+    box-shadow: 2px 2px 1px #00c25741;
+}
+
+.buttons button:hover {
+    background: #00c2570c;
+    color: black;
+}
+
+
+button:disabled {
+    cursor: not-allowed;
+    background: #aeafaf;
+    color: rgb(255, 255, 255);
+}

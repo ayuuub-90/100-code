@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*project start*/
+/*navbar start*/
+body{
+    font-family: system-ui;
+    background-color: #e4e2e2;
+}
+.navbar{
+    padding: 10px 0 10px 40px; 
+    display: flex;
+    justify-content: space-between;
+    background: #7e7e7e;
+    color: white;
+}
+.burger{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 40px;
+    margin-right: 40px;
+}
+.burger span{
+    border: 2px solid white;
+    margin: 3px;
+}
+/*navbar end*/
+/*heading start*/
+.main_heading{
+    flex-wrap: wrap;
+    margin-top: 60px;
+    justify-content: center;
+}
+.main_heading h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+    font-family:'Times New Roman', Times, serif;
+    color: #7e7e7e;
+}
+.main_heading{
+    margin-left: 50px;
+}
+.header_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.main_heading p{
+    max-width: 600px;
+    color: #7e7e7e;
+    font-size: 20px;
+}
+.btn_container{
+    margin-top: 20px;
+}
+.btn_outline{
+    width: 120px;
+    height: 40px;
+    border: 1px solid #048b22;
+    color: #019e23;
+}
+.btn_outline:hover{
+    background-color: #019e23;
+    color: white;
+}
+.btn_fil{
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: #019e23;
+    color: white;
+    margin-right: 20px;
+}
+.btn_fil:hover{
+    background-color: white;
+    color: #019e23;
+    border: #019e23 1px solid;
+}
+.btn_fil:active{
+    background-color: #019e2385;
+    color: #ffffff;
+}
+.btn_outline:active{
+    background-color: #019e2385;
+    color: #ffffff;
+}
+
+.img_container{
+    height: 500px;
+    width: 500px;
+    background: url(images/man-515518.jpg) no-repeat center/cover;
+    border-radius: 50%;
+}
+
+.section_one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.section_one .img_container{
+    background: url(images/whomen_1.avif) no-repeat center/cover;
+}
+.btn_container{
+    color: white;
+}
+
+/********************************/
+.product_container{
+    display: flex;
+    flex-direction: row;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(3, 20%);
+    margin-top: 40px;
+
+
+
+}
+.item_layer img{
+    width: 300px;
+    height: 350px;
+    padding: 10px;
+    border-radius: 30px;
+}
+.info{
+    text-align: center;
+    padding-bottom: 30px;
+}
+a{
+    text-decoration: none;
+    color: #1905c9;
+}
+
+.footer_main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: #7e7e7e;
+    background-color: #000;
+    padding: 40px;
+    text-align: center;
+}
+.footer_heading h1{
+    padding-bottom: 40px;
+}
+.footer_heading h4{
+    padding: 6px;
+}

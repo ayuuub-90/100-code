@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.load{
+    width: 20px;
+    background: #fff;
+    height: 20px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    margin: 2px;
+    animation: loading 0.8s ease infinite ;
+}
+.loader{
+    display: flex;
+    justify-content: space-between;
+
+}
+.one{
+    animation-delay: 0.3s;
+}
+.two{
+    animation-delay: 0.4s;
+}
+.three{
+    animation-delay: 0.5s;
+}
+
+@keyframes loading{
+    0%{
+        width: 20px;
+        height: 20px;
+    }
+    35%{
+        width: 10px;
+        height: 10px;
+    }
+}

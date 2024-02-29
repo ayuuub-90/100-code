@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    background: #000;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px #000000f3;
+}
+
+.image {
+    background: url(street-art-8394476_1920.jpg) no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    transition: all 1s;
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #000;
+    border: 1px solid white;
+    margin: 20px;
+    padding:0 20px 20px 20px;
+    border-radius: 5px;
+    transform: translateY(90%);
+    transition: all 1s;
+}
+
+.container:hover .content{
+    transform: translateY(0%);
+}
+.container:hover .image{
+    opacity: 0;
+}

@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+.header{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.context{
+    height: 550px;
+    width: 350px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.our_page{
+    box-shadow: 5px 5px 100px rgba(0,0,0,0.4);
+    border-radius: 5px;
+}
+.title{
+    text-align: center;
+    padding: 10px 0;
+    
+}
+
+.paragraph{
+    padding: 0 10px 10px 10px;
+}

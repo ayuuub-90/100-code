@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #eeff07;
+}
+.text{
+    font-size: 250px;
+    font-family: system-ui;
+    background-image: url(marrakech-4500910.jpg);
+    background-clip: text;
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+}
+

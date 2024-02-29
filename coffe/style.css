@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+}
+button{
+    height: 40px;
+    width: 90px;
+    border: none;
+    background-color: #f7bc3d;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    cursor: pointer;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #161616;
+    color: white;
+}
+.element {
+    display: flex;
+    justify-content: space-between;
+}
+.element li {
+    margin: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding: 2px 4px;
+    color: white;
+}
+a:hover{
+    border-bottom: 3px solid #ffffffbb;
+}
+#logo{
+    font-size: 50px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+.heading{
+    background: url("https://media.istockphoto.com/id/880093354/photo/coffee-with-milk-on-the-table.jpg?s=612x612&w=0&k=20&c=2yWef6051Un3EbqyZHKGL-F6dmwUIiUe3WmdkMJPV-g=") no-repeat center center/cover;
+    height: 90vh;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    padding: 10px;
+    
+}
+#shopBtn{
+    position: absolute;
+    top: calc(50% - 30px);
+    left: calc(50% - 150px);
+    width: 300px;
+    height: 70px;
+    font-size: 40px;
+    cursor: pointer;
+}
+#shopBtn:hover,
+#learn_more:hover{
+    background-color:#eec876
+}
+#shopBtn:active,
+#learn_more:active{
+    background: #f7d07c9f;
+}
+#second_title{
+    position: absolute;
+    bottom: calc(10% - 20px);
+    left:calc(30% - 30px);
+}
+#first_title{
+    text-align: center;
+}
+
+/*https://cdn.pixabay.com/photo/2018/04/23/20/23/hot-coffee-3345394_1280.jpg*/
+.our_story{
+    background: url("images/our_story_img.jpg")
+    no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+}
+#our_story{
+    color: white;
+    font-size: 60px;
+    padding: 40px 100px 40px 100px;
+}
+#par{
+    color: white;
+    width: 600px;
+    position: relative;
+    left: 5%;
+    font-size: 20px;
+}
+#learn_more{
+    position: relative;
+    left: 13%;
+    top: 50px;
+    width: 300px;
+    height: 70px;
+    font-size: 30px;
+
+}
+
+.coffee_start{
+    height: 100vh;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJF_epu_PBrlGwcQOQ4ZXh4kKsXjSLKZgFEQ&usqp=CAU") no-repeat center top/cover ;
+    color: white;
+}
+.coffee_start p{
+    width: 600px;
+    padding: 20px;
+    font-size: 20px;
+
+}   
+.coffee_start h1{
+    padding: 30px;
+    font-size: 60px;
+}
+.coffee_start #learn_more{
+    position: relative;
+    top: 10%;
+}
+
+/*"https://cdn.pixabay.com/photo/2015/05/07/13/46/cappuccino-756490_640.jpg"  pic1 */
+/*
+/*

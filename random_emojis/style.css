@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.emoji {
+    font-size: 100px;
+    filter: blur(2px);
+    transition: all 0.5s;
+}
+
+.emoji:hover {
+    transform: scale(1.4);
+    filter: none;
+}

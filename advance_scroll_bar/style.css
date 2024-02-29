@@ -1,0 +1,23 @@
+
+
+body {
+    background: #000;
+    color: white;
+
+}
+section{
+    margin: 40px 200px;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.scrol_bar{
+    border-radius: 5px;
+    height: 8px;
+    top: 10px;
+    left: 0;
+    position: fixed;
+    width: 0%;
+    background: linear-gradient(1deg, violet, blue);
+    transition: width ;
+}

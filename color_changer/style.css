@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: rgb(155, 255, 124);
+    transition: background-color 1s linear;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    background: transparent;
+    font-weight: bold;
+    border: 1px solid white;
+    background: linear-gradient();
+}
+
+button:hover{
+    background: #fff;
+    color: black;
+}
+
+button:active{
+    transform: scale(0.9);
+}
+
+p{
+    color: #e9dfec;
+    font-size: 25px;
+    color: white;
+}

@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+nav {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 80px;
+    border-radius: 4px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.4);
+    transition: width .9s linear;
+}
+
+nav.active {
+    width: 350px;
+}
+
+ul {
+    display: flex;
+    width: 0;
+    margin: 0;
+    padding: 0;
+    transition: width .9s linear;
+    list-style: none;
+}
+
+.active ul {
+    width: 100%;
+}
+
+.active a{
+    opacity: 1;
+    transform: rotateY(360deg);
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    position: relative;
+    opacity: 0;
+    transition: transform 0.5s linear, opacity 0.3s linear;
+}
+
+.icon {
+    border: none;
+    cursor: pointer;
+    position: relative;
+    background: white;
+    outline: none;
+    height: 30px;
+    width: 30px;
+}
+
+.icon .lineOne {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    height: 2px;
+    width: 20px;
+    background: black;
+    transition: transform 0.5s linear;
+}
+
+.icon .lineTwo {
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    height: 2px;
+    width: 20px;
+    background: black;
+    transition: transform 0.5s linear;
+}
+
+.active .icon .lineOne {
+    transform: rotate(402deg) translateY(5px);
+}
+
+.active .icon .lineTwo {
+    transform: rotate(-402deg) translateY(-5px);
+}
+

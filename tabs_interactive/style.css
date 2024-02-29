@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 35%;
+    /* box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5); */
+    padding: 20px;
+}
+
+.container nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.container nav span {
+    cursor: pointer;
+    height: 30px;
+    font-weight: bold;
+    color: rgb(202, 202, 202);
+}
+
+.container nav span:hover {
+    border-bottom: solid 2px black;
+}
+
+.container .head {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/*for javascript */
+.container nav .hover {
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.container .active {
+    display: none;
+}
